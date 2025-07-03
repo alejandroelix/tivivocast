@@ -1,0 +1,58 @@
+/* Estilos generales del cuerpo, como la fuente por defecto */
+    body {
+        font-family: 'Arial', sans-serif; /* Cambia la fuente si lo deseas */
+        color: #E0E0E0; /* Color de texto general más claro */
+    }
+
+    /* Fondo cuando se está reproduciendo */
+    .background.PLAYING {
+        background-color: #111111; /* Un fondo oscuro */
+        background-image: none; /* Quita cualquier imagen de fondo por defecto si la hay */
+    }
+
+    /* Título del contenido */
+    .media .title {
+        font-size: 48px; /* Tamaño de fuente más grande para el título */
+        color: #FFFFFF;
+        font-weight: bold;
+        text-shadow: 2px 2px 4px #000000; /* Sombra de texto para legibilidad */
+    }
+
+    /* Subtítulo del contenido */
+    .media .subtitle {
+        font-size: 32px;
+        color: #B0B0B0; /* Un gris más claro para el subtítulo */
+        font-style: italic;
+    }
+
+    /* Imagen principal del contenido */
+    .media .image {
+        border: 3px solid #4CAF50; /* Un borde verde alrededor de la carátula */
+        border-radius: 8px; /* Bordes redondeados */
+        box-shadow: 0px 0px 15px rgba(0,0,0,0.5); /* Sombra para la imagen */
+    }
+
+    /* Barra de progreso - parte reproducida */
+    .progressBar .played {
+        background-color: #4CAF50; /* Color verde para el progreso */
+    }
+
+    /* Logo en la pantalla de bienvenida/inactividad */
+    /* .logo { */
+        /* width: 200px; */ /* Ajusta el tamaño si tienes un logo */
+        /* height: auto; */
+    /* } */
+
+    /* Puedes intentar ocultar elementos si no los quieres, aunque con cuidado */
+    /* Por ejemplo, si no quieres mostrar el subtítulo NUNCA: */
+    /* .media .subtitle {
+        display: none;
+    } */
+
+    /* Pantalla de carga */
+    .background.LOADING {
+        /* Puedes añadir un GIF animado como fondo si lo deseas, pero asegúrate que sea ligero */
+        /* background-image: url('https://example.com/loading_spinner.gif'); */
+        /* background-repeat: no-repeat; */
+        /* background-position: center center; */
+    }
